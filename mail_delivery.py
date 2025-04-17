@@ -17,6 +17,7 @@
 # @author Hilary Luo (hluo@clearpathrobotics.com)
 
 import rclpy
+import time
 
 from turtlebot4_navigation.turtlebot4_navigator import TurtleBot4Directions, TurtleBot4Navigator
 
@@ -27,42 +28,61 @@ def main(args=None):
     navigator = TurtleBot4Navigator()
 
     # Start on dock
-    if not navigator.getDockedStatus():
-        navigator.info('Docking before intialising pose')
-        navigator.dock()
+    # if not navigator.getDockedStatus():
+    #     navigator.info('Docking before intialising pose')
+    #     navigator.dock()
 
     # Set initial pose
-    initial_pose = navigator.getPoseStamped([0.0, 0.0], TurtleBot4Directions.NORTH)
-    navigator.setInitialPose(initial_pose)
+    # initial_pose = navigator.getPoseStamped([8.02,7.17], TurtleBot4Directions.SOUTH_EAST)
+    # navigator.setInitialPose(initial_pose)
+
+    # navigator.info("set initial pose")
+    # time.sleep(3)
+
+    # Give the system time to process the pose
+    navigator.info("Waiting for amcl_pose to be received...")
+
 
     # Wait for Nav2
     navigator.waitUntilNav2Active()
 
     # Undock
-    navigator.undock()
+    # navigator.undock()
 
     # Prepare goal pose options
     """ Listed here are the defualt 'locations' from
         the tutorial code. We can change these to
         whatever we need them to be """
     goal_options = [
-        {'name': 'Home',
-         'pose': navigator.getPoseStamped([-1.0, 1.0], TurtleBot4Directions.EAST)},
+        {'name': 'Sowell',
+         'pose': navigator.getPoseStamped([12.7, 10.8], TurtleBot4Directions.NORTH_EAST)},
 
-        {'name': 'Position 1',
-         'pose': navigator.getPoseStamped([10.0, 6.0], TurtleBot4Directions.EAST)},
+        {'name': 'Woods 119',
+         'pose': navigator.getPoseStamped([-1.4, 3.5], TurtleBot4Directions.EAST)},
 
-        {'name': 'Position 2',
-         'pose': navigator.getPoseStamped([-9.0, 9.0], TurtleBot4Directions.NORTH)},
+         {'name': 'Liu',
+         'pose': navigator.getPoseStamped([6.9, 6.75], TurtleBot4Directions.SOUTH)},
 
-        {'name': 'Position 3',
-         'pose': navigator.getPoseStamped([-12.0, 2.0], TurtleBot4Directions.NORTH_WEST)},
+         {'name': 'Hopkins',
+         'pose': navigator.getPoseStamped([0.0, 4.3], TurtleBot4Directions.SOUTH)},
 
-        {'name': 'Position 4',
-         'pose': navigator.getPoseStamped([3.0, -7.0], TurtleBot4Directions.WEST)},
+         {'name': 'Hallway',
+         'pose': navigator.getPoseStamped([22.7, 0.28], TurtleBot4Directions.EAST)},
+
+         {'name': '134 Back Door Side',
+         'pose': navigator.getPoseStamped([32.0, -12.0], TurtleBot4Directions.WEST)},
+
+         {'name': '134 Back Window Side',
+         'pose': navigator.getPoseStamped([35.5, -10.5], TurtleBot4Directions.WEST)},
+
+         {'name': '134 Front Door Side',
+         'pose': navigator.getPoseStamped([28.3, -4.0], TurtleBot4Directions.EAST)},
+
+         {'name': '134 Front Window Side',
+         'pose': navigator.getPoseStamped([32.4, -3.25], TurtleBot4Directions.EAST)},
 
         {'name': 'Exit',
-         'pose': None}
+         'pose': None},
     ]
 
     # tbh idk where this gets printed
