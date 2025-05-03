@@ -1,0 +1,3 @@
+source;share/whisper_util/environment/ament_prefix_path.sh
+source;share/whisper_util/environment/library_path.sh
+source;share/whisper_util/environment/path.sh

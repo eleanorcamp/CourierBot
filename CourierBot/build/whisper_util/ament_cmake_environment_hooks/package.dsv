@@ -1,0 +1,4 @@
+source;share/whisper_util/local_setup.bash
+source;share/whisper_util/local_setup.dsv
+source;share/whisper_util/local_setup.sh
+source;share/whisper_util/local_setup.zsh
