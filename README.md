@@ -21,18 +21,20 @@ your package into a usable program. Follow the following steps to setup your wor
 
 2. This will create a number of nested directories in your home directory. In the mail_delivery
     directory, copy the two python files (\__init\__.py, and mail_delivery.py) found in the 
-    CourierBot2/src/mail_delivery/mail_delivery directory of this repository. 
+    CourierBot2/src/mail_delivery/mail_delivery directory of this repository.
 
-3. Next navigate to your root `mail_delivery` directory and make a directory for the project's 
+   The CourierBot2 directory has the most recently updated code.
+
+4. Next navigate to your root `mail_delivery` directory and make a directory for the project's 
     map files with the command `mkdir maps`. This is where you should place the map files you 
     have.
 
-4. Now you can navigate to the root directory of your workspace with the command `cd ~/your_ros2_ws`.
+5. Now you can navigate to the root directory of your workspace with the command `cd ~/your_ros2_ws`.
     If you have not already installed colcon, do so with the command `sudo apt install python3-colcon-common-extensions`.
     Next, run the command `colcon build --symlink-install`.
     After the build is finished, you should see the `build`, `install`, and `log` directories. 
 
-5. Navigate to your root `mail_delivery` directory and edit the `setup.py` file. Make sure the 
+6. Navigate to your root `mail_delivery` directory and edit the `setup.py` file. Make sure the 
     last section of code looks like:
     ```
     entry_points={
