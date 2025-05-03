@@ -1,0 +1,2 @@
+[console_scripts]
+mail_delivery = mail_delivery.mail_delivery:main
