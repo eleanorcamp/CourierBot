@@ -1,0 +1,126 @@
+[0.049s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.049s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7e8c75767f20>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7e8c75767bf0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7e8c75767bf0>>, mixin_verb=('build',))
+[0.068s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.068s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.068s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.068s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.068s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.068s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.068s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/student/CourierBot2'
+[0.068s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.068s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.068s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.068s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.068s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.068s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.068s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.068s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.068s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/mail_delivery) by extensions ['ignore', 'ignore_ament_install']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/mail_delivery) by extension 'ignore'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/mail_delivery) by extension 'ignore_ament_install'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/mail_delivery) by extensions ['colcon_pkg']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/mail_delivery) by extension 'colcon_pkg'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/mail_delivery) by extensions ['colcon_meta']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/mail_delivery) by extension 'colcon_meta'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/mail_delivery) by extensions ['ros']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/mail_delivery) by extension 'ros'
+[0.083s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mail_delivery' with type 'ros.ament_python' and name 'mail_delivery'
+[0.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.092s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.092s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.093s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 409 installed packages in /opt/ros/jazzy
+[0.094s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.116s] Level 5:colcon.colcon_core.verb:set package 'mail_delivery' build argument 'cmake_args' from command line to 'None'
+[0.116s] Level 5:colcon.colcon_core.verb:set package 'mail_delivery' build argument 'cmake_target' from command line to 'None'
+[0.116s] Level 5:colcon.colcon_core.verb:set package 'mail_delivery' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.116s] Level 5:colcon.colcon_core.verb:set package 'mail_delivery' build argument 'cmake_clean_cache' from command line to 'False'
+[0.116s] Level 5:colcon.colcon_core.verb:set package 'mail_delivery' build argument 'cmake_clean_first' from command line to 'False'
+[0.116s] Level 5:colcon.colcon_core.verb:set package 'mail_delivery' build argument 'cmake_force_configure' from command line to 'False'
+[0.116s] Level 5:colcon.colcon_core.verb:set package 'mail_delivery' build argument 'ament_cmake_args' from command line to 'None'
+[0.116s] Level 5:colcon.colcon_core.verb:set package 'mail_delivery' build argument 'catkin_cmake_args' from command line to 'None'
+[0.116s] Level 5:colcon.colcon_core.verb:set package 'mail_delivery' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.116s] DEBUG:colcon.colcon_core.verb:Building package 'mail_delivery' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/student/CourierBot2/build/mail_delivery', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/student/CourierBot2/install/mail_delivery', 'merge_install': False, 'path': '/home/student/CourierBot2/src/mail_delivery', 'symlink_install': False, 'test_result_base': None}
+[0.116s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.117s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.117s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/student/CourierBot2/src/mail_delivery' with build type 'ament_python'
+[0.117s] Level 1:colcon.colcon_core.shell:create_environment_hook('mail_delivery', 'ament_prefix_path')
+[0.118s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.118s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/CourierBot2/install/mail_delivery/share/mail_delivery/hook/ament_prefix_path.ps1'
+[0.119s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/CourierBot2/install/mail_delivery/share/mail_delivery/hook/ament_prefix_path.dsv'
+[0.119s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/CourierBot2/install/mail_delivery/share/mail_delivery/hook/ament_prefix_path.sh'
+[0.119s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.119s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.220s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/student/CourierBot2/src/mail_delivery'
+[0.220s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.220s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.492s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/CourierBot2/src/mail_delivery': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/student/CourierBot2/build/mail_delivery/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/CourierBot2/install/mail_delivery/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mail_delivery build --build-base /home/student/CourierBot2/build/mail_delivery/build install --record /home/student/CourierBot2/build/mail_delivery/install.log --single-version-externally-managed install_data
+[0.739s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/CourierBot2/src/mail_delivery' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/student/CourierBot2/build/mail_delivery/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/CourierBot2/install/mail_delivery/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mail_delivery build --build-base /home/student/CourierBot2/build/mail_delivery/build install --record /home/student/CourierBot2/build/mail_delivery/install.log --single-version-externally-managed install_data
+[0.740s] Level 1:colcon.colcon_core.environment:checking '/home/student/CourierBot2/install/mail_delivery' for CMake module files
+[0.741s] Level 1:colcon.colcon_core.environment:checking '/home/student/CourierBot2/install/mail_delivery' for CMake config files
+[0.741s] Level 1:colcon.colcon_core.environment:checking '/home/student/CourierBot2/install/mail_delivery/lib'
+[0.741s] Level 1:colcon.colcon_core.environment:checking '/home/student/CourierBot2/install/mail_delivery/bin'
+[0.741s] Level 1:colcon.colcon_core.environment:checking '/home/student/CourierBot2/install/mail_delivery/lib/pkgconfig/mail_delivery.pc'
+[0.741s] Level 1:colcon.colcon_core.environment:checking '/home/student/CourierBot2/install/mail_delivery/lib/python3.12/site-packages'
+[0.741s] Level 1:colcon.colcon_core.shell:create_environment_hook('mail_delivery', 'pythonpath')
+[0.741s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/CourierBot2/install/mail_delivery/share/mail_delivery/hook/pythonpath.ps1'
+[0.742s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/CourierBot2/install/mail_delivery/share/mail_delivery/hook/pythonpath.dsv'
+[0.742s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/CourierBot2/install/mail_delivery/share/mail_delivery/hook/pythonpath.sh'
+[0.742s] Level 1:colcon.colcon_core.environment:checking '/home/student/CourierBot2/install/mail_delivery/bin'
+[0.742s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mail_delivery)
+[0.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/CourierBot2/install/mail_delivery/share/mail_delivery/package.ps1'
+[0.742s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/CourierBot2/install/mail_delivery/share/mail_delivery/package.dsv'
+[0.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/CourierBot2/install/mail_delivery/share/mail_delivery/package.sh'
+[0.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/CourierBot2/install/mail_delivery/share/mail_delivery/package.bash'
+[0.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/CourierBot2/install/mail_delivery/share/mail_delivery/package.zsh'
+[0.744s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/CourierBot2/install/mail_delivery/share/colcon-core/packages/mail_delivery)
+[0.744s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.744s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.744s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.744s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.746s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.747s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.747s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.753s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.754s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/student/CourierBot2/install/local_setup.ps1'
+[0.754s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/student/CourierBot2/install/_local_setup_util_ps1.py'
+[0.754s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/student/CourierBot2/install/setup.ps1'
+[0.755s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/student/CourierBot2/install/local_setup.sh'
+[0.755s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/student/CourierBot2/install/_local_setup_util_sh.py'
+[0.755s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/student/CourierBot2/install/setup.sh'
+[0.756s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/student/CourierBot2/install/local_setup.bash'
+[0.756s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/student/CourierBot2/install/setup.bash'
+[0.756s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/student/CourierBot2/install/local_setup.zsh'
+[0.756s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/student/CourierBot2/install/setup.zsh'

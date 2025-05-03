@@ -1,0 +1,18 @@
+running egg_info
+writing ../../build/mail_delivery/mail_delivery.egg-info/PKG-INFO
+writing dependency_links to ../../build/mail_delivery/mail_delivery.egg-info/dependency_links.txt
+writing requirements to ../../build/mail_delivery/mail_delivery.egg-info/requires.txt
+writing top-level names to ../../build/mail_delivery/mail_delivery.egg-info/top_level.txt
+reading manifest file '../../build/mail_delivery/mail_delivery.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/mail_delivery/mail_delivery.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/student/CourierBot2/install/mail_delivery/lib/python3.12/site-packages/mail_delivery-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/mail_delivery/mail_delivery.egg-info to /home/student/CourierBot2/install/mail_delivery/lib/python3.12/site-packages/mail_delivery-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/student/CourierBot2/build/mail_delivery/install.log'

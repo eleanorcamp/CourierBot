@@ -1,0 +1,20 @@
+[0.783s] Invoking command in '/home/student/CourierBot2/src/mail_delivery': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/student/CourierBot2/build/mail_delivery/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/CourierBot2/install/mail_delivery/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mail_delivery build --build-base /home/student/CourierBot2/build/mail_delivery/build install --record /home/student/CourierBot2/build/mail_delivery/install.log --single-version-externally-managed install_data
+[1.092s] running egg_info
+[1.105s] writing ../../build/mail_delivery/mail_delivery.egg-info/PKG-INFO
+[1.105s] writing dependency_links to ../../build/mail_delivery/mail_delivery.egg-info/dependency_links.txt
+[1.105s] writing requirements to ../../build/mail_delivery/mail_delivery.egg-info/requires.txt
+[1.105s] writing top-level names to ../../build/mail_delivery/mail_delivery.egg-info/top_level.txt
+[1.140s] reading manifest file '../../build/mail_delivery/mail_delivery.egg-info/SOURCES.txt'
+[1.140s] adding license file 'LICENSE'
+[1.141s] writing manifest file '../../build/mail_delivery/mail_delivery.egg-info/SOURCES.txt'
+[1.141s] running build
+[1.141s] running build_py
+[1.141s] running install
+[1.149s] running install_lib
+[1.164s] running install_data
+[1.164s] running install_egg_info
+[1.180s] removing '/home/student/CourierBot2/install/mail_delivery/lib/python3.12/site-packages/mail_delivery-0.0.0-py3.12.egg-info' (and everything under it)
+[1.180s] Copying ../../build/mail_delivery/mail_delivery.egg-info to /home/student/CourierBot2/install/mail_delivery/lib/python3.12/site-packages/mail_delivery-0.0.0-py3.12.egg-info
+[1.181s] running install_scripts
+[1.290s] writing list of installed files to '/home/student/CourierBot2/build/mail_delivery/install.log'
+[1.317s] Invoked command in '/home/student/CourierBot2/src/mail_delivery' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/student/CourierBot2/build/mail_delivery/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/CourierBot2/install/mail_delivery/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mail_delivery build --build-base /home/student/CourierBot2/build/mail_delivery/build install --record /home/student/CourierBot2/build/mail_delivery/install.log --single-version-externally-managed install_data
